@@ -1,6 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
+
+
 
 export default function Home() {
   return (
@@ -13,8 +16,11 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          <Link href='/posts/first-post'>
+            New link to route
+          </Link><a href="https://nextjs.org">Next.js!</a>
         </h1>
+        <img src="/images/profile.jpg" alt="Your Name" />
 
         <p className={styles.description}>
           Get started by editing{' '}
