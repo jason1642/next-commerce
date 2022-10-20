@@ -6,9 +6,17 @@
   
 }
 .title{
-  font-size: 1.8em;
+  font-size: 1.4em;
+  border-bottom: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-weight: 300;
   font-family: sans-serif;
+}
+.title:hover{
+  cursor: pointer;
+  color: black;
 }
 
 .nav-group{
@@ -22,13 +30,18 @@
   padding: 5px 10px;
   justify-content: center;
   align-items: center;
-  color: grey;
+  color: #5d5d5d;
 }
 .nav-items:hover{
     cursor: pointer;
+    color: black;
   }
 
 .iconContainer {
   height: 100%;
   /* padding: 5px 10px; */
+}
+.iconContainer:hover{
+  cursor: pointer;
+
 }

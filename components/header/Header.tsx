@@ -12,7 +12,10 @@ const categories = ['Store', 'iPhone', 'iPad', 'Mac', 'Airpods']
 const Header: React.FunctionComponent<IHeaderProps> = (props) => {
   return (
     <div className={headerStyles.container}>
-      <div className={headerStyles.title}>Next Commerce</div>
+
+      <Link href='/'>
+        <div className={headerStyles.title}>Next Commerce</div>
+      </Link>
 
       <div className={headerStyles['nav-group']} >
 
@@ -29,10 +32,15 @@ const Header: React.FunctionComponent<IHeaderProps> = (props) => {
         
 
 
-    </div>
+      </div>
+      <Link href={'/shop/bag'}>
+
+
+   
       <div className={headerStyles.iconContainer} >
   <ShoppingBagOutlinedIcon style={{
-          color: 'white',
+          color: 'black',
+          fontWeight: '300',
           padding: '0',
           height: '100%',
           // border: '1px solid white',
@@ -41,7 +49,7 @@ const Header: React.FunctionComponent<IHeaderProps> = (props) => {
         />
 
       </div>
-      
+         </Link>
     
 
     </div>
