@@ -7,14 +7,14 @@ import Link from 'next/link'
 interface IHeaderProps {
 }
 
-const categories = ['Store', 'iPhone', 'iPad', 'Mac', 'Airpods']
+const categories = ['Store', 'Mac', 'iPad', 'iPhone', 'Watch', 'Airpods']
 
 const Header: React.FunctionComponent<IHeaderProps> = (props) => {
   return (
     <div className={headerStyles.container}>
 
       <Link href='/'>
-        <div className={headerStyles.title}>Next Commerce</div>
+        <div className={headerStyles.title}>Next Commerce</div> 
       </Link>
 
       <div className={headerStyles['nav-group']} >
