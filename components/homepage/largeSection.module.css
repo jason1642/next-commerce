@@ -2,16 +2,16 @@
   width: 100vw;
   min-height: 336px;
   overflow-y: hidden;
-  /* background-image: url('https://images.unsplash.com/photo-1608386390658-86cf60bcf61a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'); */
-  background-repeat: no-repeat;
   object-fit: cover;
+  display: flex;
+  justify-content: center;
 }
 
 .imageContainer {
   display: flex;
-  justify-content: center;
+  /* justify-content: center;
   height: 100%;
-  width: 100%;
+  width: 100%; */
 }
 .coverImage {
   position: absolute;
@@ -20,10 +20,17 @@
   height: auto;
 }
 
+.label{ 
+  font-size: 2.5em;
+  font-weight: 400;
+}
 .infoWrapper{
   display: flex;
-  position: absolute;
-  left: calc(50% + 0px);
-  top: calc(50% + 0px);
+  flex-direction: column;
+  /* flex-grow: 1; */
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: auto 0;
 
 }

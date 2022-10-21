@@ -19,7 +19,12 @@ const LargeSection: React.FunctionComponent<ILargeSectionProps> = (props) => {
       </div>
 
       <div className={largeSectionStyle.infoWrapper}>
-       New iPad 10th Generation
+        <div className={largeSectionStyle.label} >
+        iPhone 14 Pro
+        </div>
+        <div style={{ fontSize: '1.6em', fontWeight: '300'}} className={largeSectionStyle.label} >
+        Pro. Beyond.
+        </div>
       </div>
     </div>
   );
