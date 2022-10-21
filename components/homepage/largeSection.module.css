@@ -1,16 +1,27 @@
 .container{
-  background-image: url('../../public/images/ipad-home-image.jpeg');
-  width: 100%;
-  /* max-width: 100vw; */
-  height: 736px;
-  /* height: auto; */
-  background-repeat: no-repeat;
-  position: absolute;
-  left: calc(50% + 0px);
-  right: auto;
-  transform: translatex(-50%);
-  overflow-x: hidden;
-  background-size: contain;
+  width: 100vw;
+  min-height: 336px;
+  overflow-y: hidden;
+
 }
 
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.coverImage {
+  position: absolute;
+  width: 40%;
+  /* left: calc(50% + 0px); */
+  height: auto;
+}
 
+.infoWrapper{
+  display: flex;
+  position: absolute;
+  left: calc(50% + 0px);
+  top: calc(50% + 0px);
+
+}
