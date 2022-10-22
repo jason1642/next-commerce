@@ -29,11 +29,11 @@ const LargeSection: React.FunctionComponent<ILargeSectionProps> = (props) => {
         </div>
 
         <div className={largeSectionStyle.buttonTray}>
-          <Link href={''}>
+          <Link href={`/shop/`}>
             <div className={largeSectionStyle.button}>Learn more {">"}</div>
           </Link>
           
-          <Link href={''}>
+          <Link href={'/shop/'}>
             <div className={largeSectionStyle.button}>
               Buy {">"}
             </div>
