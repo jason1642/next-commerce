@@ -1,6 +1,6 @@
 import db from '../../../utils/db';
 
-export default async (req, res) => {
+export default EntryRoutes =  async (req, res) => {
   const { id } = req.query;
 
   try {
