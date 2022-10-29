@@ -8,4 +8,4 @@ const ShopRoutes = async (req, res) => {
   }
 }
 
-export default ShopRoutes
+export default ShopRoutes  
